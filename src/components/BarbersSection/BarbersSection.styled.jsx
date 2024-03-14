@@ -1,22 +1,56 @@
 import styled from "styled-components";
 
+export const AboutContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+`;
+
+export const AboutUs = styled.div`
+  background-color: ${(props) => props.theme.mainBg};
+  width: 1440px;
+`;
+
+export const AboutTit = styled.h5`
+  color: ${(props) => props.theme.switchColor};
+  font-family: "Poppins", sans-serif;
+
+  line-height: 1.8;
+  font-size: 38px;
+  padding-top: 10px;
+  padding-left: 20px;
+`;
+export const AboutDesc = styled.p`
+  color: ${(props) => props.theme.switchColor};
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  line-height: 1.8;
+  padding: 20px;
+`;
+
 export const BarbersList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  margin: 40px;
+  margin-top: 40px;
   gap: 60px;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const BarbersElement = styled.li`
-  flex-basis: calc((100% - 90px) / 2);
+  flex-basis: calc((100% - 60px) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export const BarbersHidden = styled.div`
   position: relative;
   width: 420px;
   height: 300px;
-  background-color: grey;
+  background-color: ${(props) => props.theme.mainBg};
   transform: translateY(100%);
   transition: var(--transition-active);
   visibility: hidden;
@@ -45,6 +79,8 @@ export const BarberImg = styled.img`
     z-index: 5;
   }
 `;
+
+export const BarberName = styled.h3``;
 
 export const BarbersAbaout = styled.p`
   display: block;

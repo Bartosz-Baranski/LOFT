@@ -1,38 +1,23 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: auto;
-`;
-
-export const Title = styled.h2`
-  color: ${(props) => props.theme.switchColor};
-  font-size: 48px;
-  font-weight: 700;
-  line-height: 1;
-  text-align: center;
-`;
-
-export const SocialList = styled.ul`
   display: flex;
-  gap: 18px;
-  height: 26px;
-  list-style: none;
-  justify-content: center;
-  margin-top: 20px;
-`;
-
-export const SocialListElement = styled.li`
-  display: flex;
+  height: 36px;
   align-items: center;
+  justify-content: center;
+  margin-right: 40px;
 `;
 
 export const SocialListLink = styled.a`
   text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   &:hover,
   &:active,
   &:focus {
-    fill: green;
+    fill: #e2b574;
     transition-duration: 300ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }

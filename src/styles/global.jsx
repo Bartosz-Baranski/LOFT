@@ -1,18 +1,19 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { normalize } from "styled-normalize";
-
+import { image1 } from "../images/index.js";
 export const GlobalStyles = createGlobalStyle`
   ${normalize}
-
+ 
+  
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Poppins', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: -apple-system, BlinkMacSystemFont, 'Poppins','Square Sans Serif 7', sans-serif;
     background-color: ${(props) => props.theme.mainBg};
-    background-image: url('${(props) => props.theme.bckgImages[0]}');
+    /* background-image: url('${(props) => props.theme.bckgImages[0]}'); */
+    background-image: url(${image1});
   background-repeat: no-repeat;
-  background-position: center -450px;
-  background-size: 100% 2200px;
+  background-position: center -500px ;
+  background-size: cover;
+  background-attachment: fixed;
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

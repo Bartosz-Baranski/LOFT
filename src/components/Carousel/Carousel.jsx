@@ -1,6 +1,13 @@
 import React, { useState, useEffect } from "react";
-import css from "./Carousel.module.css";
 import * as images from "../../images";
+import icons from "../../images/icons.svg";
+
+import {
+  CarouselContainer,
+  CarouselButtonRight,
+  CarouselButtonLeft,
+  CarouselImg,
+} from "./Carousel.styled.jsx";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -29,15 +36,19 @@ const Carousel = () => {
   };
 
   return (
-    <div className="carousel">
-      <button onClick={prevSlide}>Previous</button>
-      <img
-        className={css.carousel_img}
-        src={imagesArray[currentIndex]}
-        alt="carousel"
-      />
-      <button onClick={nextSlide}>Next</button>
-    </div>
+    <CarouselContainer id="gallery">
+      <CarouselButtonLeft onClick={prevSlide}>
+        <svg width="48" height="48">
+          <use href={`${icons}#icon-circle-left`} />
+        </svg>
+      </CarouselButtonLeft>
+      <CarouselImg src={imagesArray[currentIndex]} alt="carousel" />
+      <CarouselButtonRight onClick={nextSlide}>
+        <svg width="48" height="48">
+          <use href={`${icons}#icon-circle-right`} />
+        </svg>
+      </CarouselButtonRight>
+    </CarouselContainer>
   );
 };
 

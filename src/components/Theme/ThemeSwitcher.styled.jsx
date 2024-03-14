@@ -2,13 +2,16 @@ import styled from "styled-components";
 
 export const Input = styled.input`
   margin-top: 6px;
-  margin-left: 8px;
+  margin-left: 9px;
   position: relative;
+  top: -6px;
+  left: -1px;
 `;
 
 export const Label = styled.label`
-  width: 61px;
-  height: 27px;
+  width: 65px;
+  height: 30px;
+  border: 2px solid black;
   border-radius: 200px;
   background-color: ${(props) => props.theme.switch};
   box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.1);
@@ -26,8 +29,8 @@ export const Label = styled.label`
     );
     box-shadow: 2px 1px 6px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
-    top: -3px;
-    left: -3px;
+    top: -7px;
+    left: -4px;
   }
 
   ${Input}:checked {

@@ -1,22 +1,23 @@
 import React from "react";
-import { FollowUs } from "../SocialLinks/SocialLinks";
 import { ThemeToggler } from "../Theme/ThemeSwitcher";
-import GlobalContainer from "../../styles/global";
-import { MainTitle, HeaderContainer, NaviContainer,MainHeader } from "./Header.styled";
+import { SignUp } from "../SignUp/SignUp";
+import { Logo } from "../Logo/Logo";
+import { Navigation } from "../Navigation/Navigation";
+import { MainTitle } from "../MainTitle/MainTitle";
+
+import { HeaderContainer, MainHeader } from "./Header.styled";
 
 const Header = () => {
   return (
-    <GlobalContainer>
-      <HeaderContainer>
-        <MainHeader>
-          <MainTitle>LOFT Barber Studio</MainTitle>
-          <ThemeToggler />
-        </MainHeader>
-        <NaviContainer>
-          <FollowUs />
-        </NaviContainer>
-      </HeaderContainer>
-    </GlobalContainer>
+    <HeaderContainer>
+      <MainHeader>
+        <Logo />
+        <Navigation />
+        <SignUp width={143} height={43} />
+        <ThemeToggler />
+      </MainHeader>
+      <MainTitle />
+    </HeaderContainer>
   );
 };
 

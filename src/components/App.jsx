@@ -3,6 +3,7 @@ import Header from "./Header/Header.jsx";
 import GlobalContainer from "../styles/global.jsx";
 import { Barbers } from "./BarbersSection/BarbersSection.jsx";
 import Carousel from "./Carousel/Carousel.jsx";
+import { Footer } from "./Footer/Footer.jsx";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
         <Header />
         <Barbers />
         <Carousel />
-      </GlobalContainer>
+      </GlobalContainer>{" "}
+      <Footer />
     </div>
   );
 };
