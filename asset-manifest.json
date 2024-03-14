@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/LOFT/static/js/main.ca5f891e.js",
+    "static/media/outside_left.jpg": "/LOFT/static/media/outside_left.6683057c0005c0753dbb.jpg",
+    "static/media/chair_rigthside.jpg": "/LOFT/static/media/chair_rigthside.67afa06f5d913c94eadf.jpg",
+    "static/media/outside.jpg": "/LOFT/static/media/outside.c80141affdfb73ebf046.jpg",
+    "static/media/mirror.jpg": "/LOFT/static/media/mirror.b7d777e208558dcde17e.jpg",
+    "static/media/chairs_thebest.jpg": "/LOFT/static/media/chairs_thebest.efd9f7935d6fa3c5f5aa.jpg",
+    "static/media/chair_zoom.jpg": "/LOFT/static/media/chair_zoom.86b9bbf0cd45ffdba008.jpg",
+    "static/media/chair_double.jpg": "/LOFT/static/media/chair_double.7ba9581a9517e88e0f54.jpg",
+    "static/media/Marzena.jpg": "/LOFT/static/media/Marzena.7845de30eeb8803679ef.jpg",
+    "static/media/gap.jpg": "/LOFT/static/media/gap.6fb175d246e9bdf3f553.jpg",
+    "static/media/gap_left.jpg": "/LOFT/static/media/gap_left.9812a74abfe22577f708.jpg",
+    "static/media/Radek.jpg": "/LOFT/static/media/Radek.f12057a147345e2c007d.jpg",
+    "static/media/card_mirror.jpg": "/LOFT/static/media/card_mirror.ff3a312f4e6e411f4774.jpg",
+    "static/media/chair_left.jpg": "/LOFT/static/media/chair_left.c917741980fae15d1b48.jpg",
+    "static/media/logo_negativ.jpg": "/LOFT/static/media/logo_negativ.142019360db21d0faf3a.jpg",
+    "static/media/logo_positive.jpg": "/LOFT/static/media/logo_positive.ab713831ed7d565a7fb3.jpg",
+    "static/media/icons.svg": "/LOFT/static/media/icons.6ffcca5305b2fddaab6bd42654f2d98f.svg",
+    "index.html": "/LOFT/index.html",
+    "main.ca5f891e.js.map": "/LOFT/static/js/main.ca5f891e.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ca5f891e.js"
+  ]
+}
