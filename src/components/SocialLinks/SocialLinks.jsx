@@ -8,7 +8,7 @@ import {
   SocialListIcon,
 } from "./SocialLinks.styled";
 
-export const FollowUs = () => {
+export const SocialLinks = () => {
   return (
     <Container>
       <Title>Follow us</Title>

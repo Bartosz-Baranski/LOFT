@@ -1,4 +1,4 @@
-import { FollowUs } from "../SocialLinks/SocialLinks.jsx";
+import { SocialLinks } from "../SocialLinks/SocialLinks.jsx";
 import { SignUp } from "../SignUp/SignUp.jsx";
 
 import {
@@ -24,7 +24,7 @@ export const Footer = () => {
           </FooterLink>
         </FooterAddress>
         <SignUp width={200} height={65} />
-        <FollowUs />
+        <SocialLinks />
       </FooterContainer>
     </FooterSection>
   );

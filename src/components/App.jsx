@@ -4,6 +4,7 @@ import GlobalContainer from "../styles/global.jsx";
 import { Barbers } from "./BarbersSection/BarbersSection.jsx";
 import Carousel from "./Carousel/Carousel.jsx";
 import { Footer } from "./Footer/Footer.jsx";
+import { OurServices } from "./OurServices/OurServices.jsx";
 
 const App = () => {
   return (
@@ -11,8 +12,9 @@ const App = () => {
       <GlobalContainer>
         <Header />
         <Barbers />
+        <OurServices />
         <Carousel />
-      </GlobalContainer>{" "}
+      </GlobalContainer>
       <Footer />
     </div>
   );

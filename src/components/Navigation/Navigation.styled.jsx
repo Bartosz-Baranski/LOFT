@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NaviContener = styled.div`
   display: flex;
-  margin: 0 100px 0 400px;
+  margin: 0 100px 0 320px;
 `;
 
 export const NaviList = styled.ul`

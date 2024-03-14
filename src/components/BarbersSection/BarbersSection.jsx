@@ -33,8 +33,8 @@ export const Barbers = () => {
           <BarbersOverlay>
             <BarberImg src={image1} alt="Barber Radek" />
             <BarbersHidden>
+              <BarberName>Radek</BarberName>
               <BarbersAbaout>
-                <BarberName>Radek</BarberName>
                 lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem
                 ipsum 40lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem ipsum
                 40lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem
@@ -50,8 +50,8 @@ export const Barbers = () => {
           <BarbersOverlay>
             <BarberImg src={image2} alt="Barber Marzena" />
             <BarbersHidden>
+              <BarberName>Marzena</BarberName>
               <BarbersAbaout>
-                <BarberName>Marzena</BarberName>
                 lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem
                 ipsum 40lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem ipsum
                 40lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem ipsum 40lorem

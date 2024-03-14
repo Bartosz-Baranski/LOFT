@@ -80,7 +80,15 @@ export const BarberImg = styled.img`
   }
 `;
 
-export const BarberName = styled.h3``;
+export const BarberName = styled.h3`
+  display: block;
+  padding: 10px;
+  margin: auto;
+  color: ${(props) => props.theme.switchColor};
+  font-size: 28px;
+
+  text-align: left;
+`;
 
 export const BarbersAbaout = styled.p`
   display: block;

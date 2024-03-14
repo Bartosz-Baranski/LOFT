@@ -12,8 +12,8 @@ const scrollToSection = (id) => {
 export const Logo = () => {
   return (
     <LogoContainer>
-      <a onClick={() => scrollToSection("about")}>
-        <LogoIcon width="120" height="48">
+      <a href="#about" onClick={() => scrollToSection("about")}>
+        <LogoIcon width="180" height="80">
           <use href={`${icons}#icon-logo`} />
         </LogoIcon>
       </a>
