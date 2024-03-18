@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Input = styled.input`
-  margin-top: 6px;
+  margin-top: 10px;
   margin-left: 9px;
   position: relative;
   top: -6px;
@@ -45,8 +45,8 @@ export const Label = styled.label`
     );
     box-shadow: 2px 1px 6px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
-    top: -7px;
-    left: -4px;
+    top: -2px;
+    left: -2px;
   }
 
   ${Input}:checked {

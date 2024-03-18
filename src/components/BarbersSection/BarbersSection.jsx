@@ -21,7 +21,7 @@ export const Barbers = () => {
         <AboutTit>O nas</AboutTit>
         <AboutDesc>
           LOFT Barber Studio to idealne miejsce dla mężczyzn, którzy pragną
-          zadbać o swój wygląd i poczuć się zrelaksowani, doradzimy fryzurę
+          zadbać o swój wygląd i poczuć się zrelaksowanym, doradzimy fryzurę
           dopasowaną idealnie dla Ciebie. Wierzymy w jakość naszych usług i
           oferujemy tylko najwyższej jakości produkty do pielęgnacji zarostu i
           włosów. Naszym celem jest zapewnienie naszym klientom kompleksowej

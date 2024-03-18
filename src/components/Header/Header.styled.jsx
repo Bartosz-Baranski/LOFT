@@ -16,10 +16,20 @@ export const HeaderContainer = styled.header`
 
 export const MainHeader = styled.div`
   display: flex;
-  width: 100%;
+  width: 320;
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    flex-direction: row;
+  }
+
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+
+    flex-direction: row;
+  }
 `;
 
 export const MobileMenu = styled.div`
