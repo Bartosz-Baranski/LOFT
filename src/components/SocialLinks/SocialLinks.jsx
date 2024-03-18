@@ -15,14 +15,14 @@ export const SocialLinks = () => {
       <SocialList>
         <SocialListElement>
           <SocialListLink href="https://www.facebook.com/LoftBarberStudio">
-            <SocialListIcon width="48" height="48">
+            <SocialListIcon>
               <use href={`${icons}#icon-facebook`} />
             </SocialListIcon>
           </SocialListLink>
         </SocialListElement>
         <SocialListElement>
           <SocialListLink href="https://www.instagram.com/loftbarberstudio/?igsh=eHY4d3pva2kxeXRy">
-            <SocialListIcon width="48" height="48">
+            <SocialListIcon>
               <use href={`${icons}#icon-instagram`} />
             </SocialListIcon>
           </SocialListLink>

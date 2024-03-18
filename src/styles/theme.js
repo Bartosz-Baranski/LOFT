@@ -1,7 +1,7 @@
 import { image1, image2 } from "../images/background.js";
 
 export const lightTheme = {
-  mainBg: "rgb(168, 167, 167, 0.9)",
+  mainBg: "rgb(168, 167, 167, 0.7)",
   textColor: "#333",
   bckgImages: [image2],
 
@@ -12,6 +12,9 @@ export const lightTheme = {
 
   //followUS
   switchColor: "#000000",
+
+  //mobileMenu
+  bckColorMobile: "rgb(168, 167, 167, 1)",
 };
 
 export const darkTheme = {
@@ -26,4 +29,7 @@ export const darkTheme = {
 
   //followUS
   switchColor: "#FFFFFF",
+
+  //mobileMenu
+  bckColorMobile: "rgb(42, 44, 54, 1)",
 };

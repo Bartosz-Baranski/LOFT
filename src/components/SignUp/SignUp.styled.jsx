@@ -5,7 +5,6 @@ export const Container = styled.div`
   height: 36px;
   align-items: center;
   justify-content: center;
-  margin-right: 40px;
 `;
 
 export const SocialListLink = styled.a`

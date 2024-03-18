@@ -2,13 +2,24 @@ import styled from "styled-components";
 
 export const NaviContener = styled.div`
   display: flex;
-  margin: 0 100px 0 320px;
+  margin: 0 auto;
 `;
 
 export const NaviList = styled.ul`
   display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 12px;
   justify-content: space-around;
   padding: 0;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    flex-direction: row;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 34px;
+  }
 `;
 
 export const NaviElement = styled.li`

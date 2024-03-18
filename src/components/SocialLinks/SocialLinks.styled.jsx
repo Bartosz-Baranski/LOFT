@@ -6,16 +6,23 @@ export const Container = styled.div`
 
 export const Title = styled.h2`
   color: ${(props) => props.theme.switchColor};
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 36px;
+  font-family: "Square Sans Serif 7", sans-serif;
+
   line-height: 1;
   text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 50px;
+  }
 `;
 
 export const SocialList = styled.ul`
   display: flex;
-  gap: 18px;
-  height: 26px;
+  gap: 36px;
   list-style: none;
   justify-content: center;
   margin-top: 20px;
@@ -40,6 +47,13 @@ export const SocialListLink = styled.a`
 
 export const SocialListIcon = styled.svg`
   fill: ${(props) => props.theme.switchColor};
+  width: 48px;
+  height: 48px;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1440px) {
+  }
 
   &:hover,
   &:active,

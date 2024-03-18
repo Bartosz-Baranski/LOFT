@@ -13,7 +13,7 @@ export const Logo = () => {
   return (
     <LogoContainer>
       <a href="#about" onClick={() => scrollToSection("about")}>
-        <LogoIcon width="180" height="80">
+        <LogoIcon>
           <use href={`${icons}#icon-logo`} />
         </LogoIcon>
       </a>

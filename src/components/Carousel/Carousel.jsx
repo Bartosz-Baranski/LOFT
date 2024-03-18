@@ -7,6 +7,8 @@ import {
   CarouselButtonRight,
   CarouselButtonLeft,
   CarouselImg,
+  LeftSvg,
+  RightSvg,
 } from "./Carousel.styled.jsx";
 
 const Carousel = () => {
@@ -38,15 +40,15 @@ const Carousel = () => {
   return (
     <CarouselContainer id="gallery">
       <CarouselButtonLeft onClick={prevSlide}>
-        <svg width="48" height="48">
+        <LeftSvg>
           <use href={`${icons}#icon-circle-left`} />
-        </svg>
+        </LeftSvg>
       </CarouselButtonLeft>
       <CarouselImg src={imagesArray[currentIndex]} alt="carousel" />
       <CarouselButtonRight onClick={nextSlide}>
-        <svg width="48" height="48">
+        <RightSvg>
           <use href={`${icons}#icon-circle-right`} />
-        </svg>
+        </RightSvg>
       </CarouselButtonRight>
     </CarouselContainer>
   );

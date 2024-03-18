@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://bartosz-baranski.github.io/LOFT/",
   "dependencies": {
+    "@react-hook/media-query": "^1.1.1",
     "@reduxjs/toolkit": "^2.2.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

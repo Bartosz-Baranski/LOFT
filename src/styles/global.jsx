@@ -11,7 +11,7 @@ export const GlobalStyles = createGlobalStyle`
     /* background-image: url('${(props) => props.theme.bckgImages[0]}'); */
     background-image: url(${image1});
   background-repeat: no-repeat;
-  background-position: center -500px ;
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
   }
@@ -49,16 +49,18 @@ const GlobalContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  max-width: 1440px;
+  width: 320px;
   margin: 20px auto;
   padding: 0 16px;
 
   @media screen and (min-width: 768px) {
     padding: 0 32px;
+    width: 768px;
   }
 
   @media screen and (min-width: 1440px) {
     padding: 0 100px;
+    width: 1440px;
   }
 `;
 export default GlobalContainer;

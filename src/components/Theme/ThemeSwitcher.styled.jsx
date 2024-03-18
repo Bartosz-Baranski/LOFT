@@ -6,6 +6,14 @@ export const Input = styled.input`
   position: relative;
   top: -6px;
   left: -1px;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
 `;
 
 export const Label = styled.label`
@@ -16,6 +24,14 @@ export const Label = styled.label`
   background-color: ${(props) => props.theme.switch};
   box-shadow: 0px 6px 8px 3px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
 
   ::before {
     position: absolute;

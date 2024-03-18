@@ -17,7 +17,7 @@ export const Navigation = () => {
     <NaviContener>
       <NaviList>
         <NaviElement>
-          <NaviLink>Usługi</NaviLink>
+          <NaviLink onClick={() => scrollToSection("service")}>Usługi</NaviLink>
         </NaviElement>
         <NaviElement>
           <NaviLink onClick={() => scrollToSection("gallery")}>
