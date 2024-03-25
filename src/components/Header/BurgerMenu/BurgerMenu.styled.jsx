@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../styles";
+import { theme } from "../../../styles";
 
 export const BurgerSvg = styled.svg`
   width: 36px;
@@ -21,3 +21,5 @@ export const BurgerBtn = styled.button`
     display: none;
   }
 `;
+
+

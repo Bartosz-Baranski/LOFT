@@ -4,6 +4,7 @@ import GlobalContainer from "../styles/global.jsx";
 import { Barbers } from "./BarbersSection/BarbersSection.jsx";
 import Carousel from "./Carousel/Carousel.jsx";
 import { Footer } from "./Footer/Footer.jsx";
+import { OpeningHours } from "./Hours/Hours.jsx";
 import { OurServices } from "./OurServices/OurServices.jsx";
 import { MainTitle } from "./MainTitle/MainTitle.jsx";
 
@@ -14,6 +15,7 @@ const App = () => {
         <Header />
         <MainTitle />
         <Barbers />
+        <OpeningHours />
         <OurServices />
         <Carousel />
       </GlobalContainer>

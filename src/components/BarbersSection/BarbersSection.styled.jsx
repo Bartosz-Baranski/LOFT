@@ -9,12 +9,20 @@ export const AboutContainer = styled.div`
 `;
 
 export const AboutUs = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px;
   background-color: ${theme.mainBg};
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(${image7});
   background-position: center;
   background-size: cover;
+`;
+
+export const AboutDescDiv = styled.div`
+  max-width: 1440px;
 `;
 
 export const AboutTit = styled.h5`

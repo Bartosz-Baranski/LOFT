@@ -7,7 +7,7 @@ export const Container = styled.div`
   min-width: 320px;
   padding: 20px;
   text-align: left;
-  background-color: black;
+  background-color: #34343ef7;
 
   @media screen and (min-width: 768px) {
     min-width: 768px;
@@ -44,6 +44,13 @@ export const ServicBtn = styled.button`
   cursor: pointer;
   background-color: ${theme.mainBg};
   margin-top: 10px;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 28px;
+  }
 `;
 
 export const ServiceLink = styled.a`

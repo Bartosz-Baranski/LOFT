@@ -17,12 +17,11 @@ export const HeaderContainer = styled.header`
 export const MainHeader = styled.div`
   display: flex;
   min-width: 320px;
-
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
   @media screen and (min-width: 768px) {
-    width: 768px;
+    min-width: 768px;
     flex-direction: row;
   }
 
