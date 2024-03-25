@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
 
 export const Container = styled.div`
   display: flex;
@@ -23,7 +24,7 @@ export const SocialListLink = styled.a`
 `;
 
 export const SocialListIcon = styled.svg`
-  fill: ${(props) => props.theme.switchColor};
+  fill: ${theme.switchColor};
 
   &:hover,
   &:active,

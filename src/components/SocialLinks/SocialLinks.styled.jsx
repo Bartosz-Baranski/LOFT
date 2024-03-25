@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
 
 export const Container = styled.div`
   width: auto;
 `;
 
 export const Title = styled.h2`
-  color: ${(props) => props.theme.switchColor};
+  color: ${theme.switchColor};
   font-size: 36px;
   font-family: "Square Sans Serif 7", sans-serif;
 
@@ -46,7 +47,7 @@ export const SocialListLink = styled.a`
 `;
 
 export const SocialListIcon = styled.svg`
-  fill: ${(props) => props.theme.switchColor};
+  fill: ${theme.switchColor};
   width: 48px;
   height: 48px;
   @media screen and (min-width: 768px) {

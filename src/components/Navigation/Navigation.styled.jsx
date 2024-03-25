@@ -1,8 +1,16 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
 
 export const NaviContener = styled.div`
   display: flex;
   margin: 0 auto;
+  display: none;
+  @media screen and (min-width: 768px) {
+  }
+
+  @media screen and (min-width: 1440px) {
+    display: block;
+  }
 `;
 
 export const NaviList = styled.ul`
@@ -28,7 +36,7 @@ export const NaviElement = styled.li`
 
 export const NaviLink = styled.a`
   text-decoration: none;
-  color: ${(props) => props.theme.switchColor};
+  color: ${theme.switchColor};
   transition: color 0.3s ease;
   cursor: pointer;
   &:hover,

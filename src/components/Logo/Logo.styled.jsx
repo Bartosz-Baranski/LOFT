@@ -7,10 +7,11 @@ export const LogoContainer = styled.div`
   width: 100px;
 
   @media screen and (min-width: 768px) {
+    width: 140px;
   }
 
   @media screen and (min-width: 1440px) {
-    margin-right: 80px;
+    width: 240px;
   }
 `;
 
@@ -20,12 +21,12 @@ export const LogoIcon = styled.svg`
   width: 100px;
   height: 60px;
   @media screen and (min-width: 768px) {
-    width: 120px;
-    height: 60px;
+    width: 180px;
+    height: 100px;
   }
 
   @media screen and (min-width: 1440px) {
-    width: 180px;
-    height: 80px;
+    width: 240px;
+    height: 160px;
   }
 `;

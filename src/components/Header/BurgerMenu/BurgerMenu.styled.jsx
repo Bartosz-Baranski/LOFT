@@ -1,9 +1,10 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
 
 export const BurgerSvg = styled.svg`
   width: 36px;
   height: 36px;
-  fill: ${(props) => props.theme.switchColor};
+  fill: ${theme.switchColor};
 
   @media screen and (min-width: 1440px) {
     display: none;

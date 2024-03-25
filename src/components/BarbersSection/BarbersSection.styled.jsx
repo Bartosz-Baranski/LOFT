@@ -1,32 +1,30 @@
 import styled from "styled-components";
+import { image7 } from "../../images/index.js";
+import { theme } from "../../styles";
 
 export const AboutContainer = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 180px;
   width: 100%;
-  @media screen and (min-width: 768px) {
-    width: 768px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    width: 1440px;
-    margin-top: 300px;
-  }
 `;
 
 export const AboutUs = styled.div`
-  background-color: ${(props) => props.theme.mainBg};
+  background-color: ${theme.mainBg};
   width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(${image7});
+  background-position: center;
+  background-size: cover;
 `;
 
 export const AboutTit = styled.h5`
-  color: ${(props) => props.theme.switchColor};
+  color: ${theme.switchBall2};
   font-family: "Poppins", sans-serif;
   line-height: 1.8;
-  font-size: 18px;
+  font-size: 32px;
   padding-top: 10px;
   padding-left: 20px;
+
   @media screen and (min-width: 768px) {
     font-size: 28px;
   }
@@ -36,9 +34,9 @@ export const AboutTit = styled.h5`
   }
 `;
 export const AboutDesc = styled.p`
-  color: ${(props) => props.theme.switchColor};
+  color: ${theme.switchBall2};
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.8;
   padding: 20px;
   @media screen and (min-width: 768px) {
@@ -54,8 +52,7 @@ export const BarbersList = styled.ul`
   display: flex;
   flex-direction: column;
   padding: 0px;
-  margin-top: 40px;
-
+  margin: auto;
   align-items: center;
   justify-content: center;
   @media screen and (min-width: 768px) {
@@ -66,6 +63,7 @@ export const BarbersList = styled.ul`
 
   @media screen and (min-width: 1440px) {
     gap: 60px;
+    max-width: 1440px;
   }
 `;
 
@@ -85,52 +83,25 @@ export const BarbersElement = styled.li`
   }
 `;
 
-export const BarbersHidden = styled.div`
-  position: relative;
-  width: 320px;
-  height: 300px;
-  background-color: ${(props) => props.theme.mainBg};
-  transform: translateY(100%);
-  transition: var(--transition-active);
-  visibility: hidden;
-  @media screen and (min-width: 768px) {
-    width: 320px;
-  }
-
-  @media screen and (min-width: 1440px) {
-    width: 420px;
-  }
-`;
-
 export const BarbersOverlay = styled.div`
-  position: relative;
-  overflow: hidden;
-  width: auto;
-  &:hover ${BarbersHidden}, &:focus ${BarbersHidden} {
-    transform: translateY(0%);
-    visibility: visible;
-  }
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  border: 1px solid black;
 `;
 
 export const BarberImg = styled.img`
   display: block;
-  width: 320px;
-  height: 400px;
-  transition: box-shadow 0.3s ease;
-  z-index: 1;
+  min-width: 320px;
+  height: auto;
+
   @media screen and (min-width: 768px) {
-    width: 320px;
+    min-width: 320px;
   }
 
   @media screen and (min-width: 1440px) {
-    width: 420px;
-    height: 550px;
-  }
-  &:hover,
-  &:focus {
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
-    transform: scale(1.2);
-    z-index: 5;
+    width: 620px;
   }
 `;
 
@@ -138,31 +109,30 @@ export const BarberName = styled.h3`
   display: block;
   padding: 10px;
   margin: auto;
-  color: ${(props) => props.theme.switchColor};
-  font-size: 18px;
+  color: ${theme.switchColor};
+  font-size: 32px;
   text-align: left;
   @media screen and (min-width: 768px) {
-    font-size: 20px;
+    font-size: 36px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 28px;
+    font-size: 36px;
   }
 `;
 
 export const BarbersAbaout = styled.p`
-  display: block;
   padding: 10px;
   margin: auto;
-  color: ${(props) => props.theme.switchColor};
-  font-size: 18px;
+  color: ${theme.switchColor};
+  font-size: 24px;
   line-height: 1.55;
   text-align: left;
   @media screen and (min-width: 768px) {
-    font-size: 20px;
+    font-size: 26px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 22px;
+    font-size: 24px;
   }
 `;

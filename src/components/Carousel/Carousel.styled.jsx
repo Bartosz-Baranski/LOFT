@@ -2,21 +2,21 @@ import styled from "styled-components";
 
 export const CarouselContainer = styled.div`
   position: relative;
-  width: 320px;
-  max-width: 1000px;
-  margin-top: 50px;
+  min-width: 320px;
+  height: auto;
+
   @media screen and (min-width: 768px) {
-    width: 768px;
+    min-width: 768px;
   }
 
   @media screen and (min-width: 1440px) {
-    width: 1440px;
+    width: 1200px;
   }
 `;
 
 export const CarouselImg = styled.img`
-  width: 320px;
-  height: 400px;
+  min-width: 320px;
+
   @media screen and (min-width: 768px) {
     width: 768px;
     height: 800px;
@@ -24,6 +24,7 @@ export const CarouselImg = styled.img`
 
   @media screen and (min-width: 1440px) {
     width: 1200px;
+    height: 1000px;
   }
 `;
 

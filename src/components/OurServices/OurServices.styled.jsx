@@ -1,19 +1,20 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
 
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-
-  width: 320px;
+  min-width: 320px;
   padding: 20px;
   text-align: left;
-  background-color: ${(props) => props.theme.mainBg};
+  background-color: black;
+
   @media screen and (min-width: 768px) {
-    width: 768px;
+    min-width: 768px;
   }
 
   @media screen and (min-width: 1440px) {
-    width: 1440px;
+    max-width: 1440px;
   }
 `;
 export const ServicesList = styled.ul`
@@ -24,12 +25,12 @@ export const ServicesList = styled.ul`
 export const ServicesElement = styled.li``;
 
 export const ServicTitle = styled.h3`
-  font-size: 26px;
-  color: ${(props) => props.theme.switchColor};
+  font-size: 32px;
+  color: ${theme.switchColor};
 `;
 export const ServiceDescription = styled.p`
-  font-size: 22px;
-  color: ${(props) => props.theme.switchColor};
+  font-size: 24px;
+  color: ${theme.switchColor};
 `;
 export const ServicBtn = styled.button`
   display: flex;
@@ -41,12 +42,13 @@ export const ServicBtn = styled.button`
   border-radius: 20px;
   font-size: 20px;
   cursor: pointer;
-  background-color: ${(props) => props.theme.mainBg};
+  background-color: ${theme.mainBg};
+  margin-top: 10px;
 `;
 
 export const ServiceLink = styled.a`
   text-decoration: none;
-  color: ${(props) => props.theme.switchColor};
+  color: ${theme.switchColor};
   &:hover,
   &:active,
   &:focus {

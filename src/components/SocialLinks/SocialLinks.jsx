@@ -11,7 +11,7 @@ import {
 export const SocialLinks = () => {
   return (
     <Container>
-      <Title>Follow us</Title>
+      <Title>ŚLEDŹ NAS</Title>
       <SocialList>
         <SocialListElement>
           <SocialListLink href="https://www.facebook.com/LoftBarberStudio">

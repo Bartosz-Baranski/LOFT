@@ -1,19 +1,13 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { normalize } from "styled-normalize";
-import { image1 } from "../images/index.js";
+import { theme } from "./theme.js";
 export const GlobalStyles = createGlobalStyle`
   ${normalize}
  
   
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Poppins','Square Sans Serif 7', sans-serif;
-    background-color: ${(props) => props.theme.mainBg};
-    /* background-image: url('${(props) => props.theme.bckgImages[0]}'); */
-    background-image: url(${image1});
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
+    background-color: ${theme.mainBg};
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -49,18 +43,16 @@ const GlobalContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  width: 320px;
+
   margin: 20px auto;
-  padding: 0 16px;
 
   @media screen and (min-width: 768px) {
     padding: 0 32px;
-    width: 768px;
   }
 
   @media screen and (min-width: 1440px) {
     padding: 0 100px;
-    width: 1440px;
   }
 `;
+
 export default GlobalContainer;

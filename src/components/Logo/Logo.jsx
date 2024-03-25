@@ -12,9 +12,9 @@ const scrollToSection = (id) => {
 export const Logo = () => {
   return (
     <LogoContainer>
-      <a href="#about" onClick={() => scrollToSection("about")}>
+      <a href="#header" onClick={() => scrollToSection("header")}>
         <LogoIcon>
-          <use href={`${icons}#icon-logo`} />
+          <use href={`${icons}#icon-logo_negativ`} />
         </LogoIcon>
       </a>
     </LogoContainer>

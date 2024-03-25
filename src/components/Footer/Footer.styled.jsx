@@ -1,22 +1,22 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
 
 export const FooterSection = styled.div`
   width: 100%;
-  background-color: ${(props) => props.theme.mainBg};
-  margin-top: 100px;
+  background-color: ${theme.mainBg};
 `;
 export const FooterContainer = styled.footer`
   display: flex;
   flex-direction: column;
   gap: 50px;
-  width: 320px;
+  min-width: 320px;
   height: auto;
   margin: 0 auto;
   padding: 20px 0px;
   justify-content: space-evenly;
   align-items: center;
   @media screen and (min-width: 768px) {
-    width: 768px;
+    min-width: 768px;
     flex-direction: row;
   }
 
@@ -34,7 +34,7 @@ export const FooterAddress = styled.address`
 `;
 
 export const FooterTitle = styled.h3`
-  color: ${(props) => props.theme.switchColor};
+  color: ${theme.switchColor};
   font-size: 32px;
   font-family: "Square Sans Serif 7", sans-serif;
   text-align: center;
@@ -50,9 +50,8 @@ export const FooterTitle = styled.h3`
 `;
 
 export const FooterLink = styled.a`
-  color: ${(props) => props.theme.switchColor};
+  color: ${theme.switchColor};
   font-size: 22px;
-  font-family: "Square Sans Serif 7", sans-serif;
   text-align: center;
 
   @media screen and (min-width: 768px) {
