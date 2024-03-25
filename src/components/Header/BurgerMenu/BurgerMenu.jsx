@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import icons from "../../../images/icons.svg";
 import { BurgerBtn, BurgerSvg } from "./BurgerMenu.styled.jsx";
 

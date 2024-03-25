@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/LOFT/static/js/main.d75dc411.js",
+    "main.js": "/LOFT/static/js/main.673f2d36.js",
     "static/media/outside_left.jpg": "/LOFT/static/media/outside_left.6683057c0005c0753dbb.jpg",
     "static/media/chair_rigthside.jpg": "/LOFT/static/media/chair_rigthside.67afa06f5d913c94eadf.jpg",
     "static/media/outside.jpg": "/LOFT/static/media/outside.c80141affdfb73ebf046.jpg",
@@ -13,14 +13,13 @@
     "static/media/gap_left.jpg": "/LOFT/static/media/gap_left.9812a74abfe22577f708.jpg",
     "static/media/Radek.jpg": "/LOFT/static/media/Radek.f12057a147345e2c007d.jpg",
     "static/media/card_mirror.jpg": "/LOFT/static/media/card_mirror.ff3a312f4e6e411f4774.jpg",
+    "static/media/przycinanie-brody.jpg": "/LOFT/static/media/przycinanie-brody.c4bb083a5e6002238973.jpg",
     "static/media/chair_left.jpg": "/LOFT/static/media/chair_left.c917741980fae15d1b48.jpg",
-    "static/media/logo_negativ.jpg": "/LOFT/static/media/logo_negativ.142019360db21d0faf3a.jpg",
-    "static/media/logo_positive.jpg": "/LOFT/static/media/logo_positive.ab713831ed7d565a7fb3.jpg",
     "static/media/icons.svg": "/LOFT/static/media/icons.8d42bc213de99b96ba91adba317200ae.svg",
     "index.html": "/LOFT/index.html",
-    "main.d75dc411.js.map": "/LOFT/static/js/main.d75dc411.js.map"
+    "main.673f2d36.js.map": "/LOFT/static/js/main.673f2d36.js.map"
   },
   "entrypoints": [
-    "static/js/main.d75dc411.js"
+    "static/js/main.673f2d36.js"
   ]
 }
