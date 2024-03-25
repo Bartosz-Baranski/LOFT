@@ -8,8 +8,6 @@ export const Container = styled.div`
 export const Title = styled.h2`
   color: ${theme.switchColor};
   font-size: 36px;
-  font-family: "Square Sans Serif 7", sans-serif;
-
   line-height: 1;
   text-align: center;
   @media screen and (min-width: 768px) {

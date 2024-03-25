@@ -12,7 +12,7 @@ export const FooterContainer = styled.footer`
   min-width: 320px;
   height: auto;
   margin: 0 auto;
-  padding: 20px 0px;
+  padding: 20px 20px;
   justify-content: space-evenly;
   align-items: center;
   @media screen and (min-width: 768px) {
@@ -70,5 +70,22 @@ export const FooterLink = styled.a`
     color: #e2b574;
     transition-duration: 300ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+`;
+export const SocialContainer = styled.div``;
+
+export const Invitation = styled.p`
+  color: ${theme.switchColor};
+  margin: 0 auto;
+  font-size: 36px;
+  text-align: center;
+  background-color: transparent;
+
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 32px;
   }
 `;

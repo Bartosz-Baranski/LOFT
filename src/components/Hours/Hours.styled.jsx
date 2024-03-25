@@ -20,8 +20,6 @@ export const HoursTit = styled.h5`
   font-family: "Poppins", sans-serif;
   line-height: 1.8;
   font-size: 32px;
-  padding-top: 10px;
-  padding-left: 20px;
   text-align: center;
   @media screen and (min-width: 768px) {
     font-size: 32px;
@@ -37,15 +35,23 @@ export const HoursList = styled.ul`
   gap: 5px;
 `;
 export const HoursElem = styled.li`
-  font-size: 32px;
+  font-size: 24px;
+  line-height: 1.8;
   color: ${theme.switchBall2};
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    font-size: 38px;
+  }
 `;
 
 export const SaveBtn = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 220px;
+  width: 300px;
   height: 80px;
   border: 1px solid black;
   border-radius: 20px;
@@ -54,20 +60,28 @@ export const SaveBtn = styled.button`
   background-color: ${theme.mainBg};
   margin-top: 10px;
   @media screen and (min-width: 768px) {
-    font-size: 32px;
+    font-size: 28px;
+    width: 320px;
   }
 
   @media screen and (min-width: 1440px) {
     font-size: 38px;
+    width: 460px;
+    height: 120px;
+  }
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #e2b574;
+    transition-duration: 300ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 `;
 export const SaveLink = styled.a`
   text-decoration: none;
   color: ${theme.switchColor};
-  &:hover,
-  &:active,
-  &:focus {
-    color: #e2b574;
+  ${SaveBtn}:hover &, ${SaveBtn}:active &, ${SaveBtn}:focus & {
+    color: BLACK;
     transition-duration: 300ms;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }

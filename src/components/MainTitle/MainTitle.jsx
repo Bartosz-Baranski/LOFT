@@ -1,6 +1,6 @@
 import icons from "../../images/icons.svg";
 import { SocialLinks } from "../SocialLinks/SocialLinks.jsx";
-import { MainTit, MainIcon } from "./MainTitle.styled.jsx";
+import { MainTit, MainIcon, Invitation } from "./MainTitle.styled.jsx";
 
 export const MainTitle = () => {
   return (
@@ -8,6 +8,10 @@ export const MainTitle = () => {
       <MainIcon>
         <use href={`${icons}#icon-logo_negativ`} />
       </MainIcon>
+      <Invitation>
+        Chcesz być na bieżąco z tym co się dzieje w naszym barbershopie?
+        <br /> Dołącz do nas
+      </Invitation>
       <SocialLinks />
     </MainTit>
   );

@@ -7,6 +7,8 @@ import {
   FooterTitle,
   FooterLink,
   FooterSection,
+  SocialContainer,
+  Invitation,
 } from "./Footer.styled.jsx";
 
 export const Footer = () => {
@@ -24,7 +26,10 @@ export const Footer = () => {
           </FooterLink>
         </FooterAddress>
         <SignUp width={220} height={96} />
-        <SocialLinks />
+        <SocialContainer>
+          <Invitation>Dołącz do nas</Invitation>
+          <SocialLinks />
+        </SocialContainer>
       </FooterContainer>
     </FooterSection>
   );

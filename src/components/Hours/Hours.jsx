@@ -25,11 +25,11 @@ export const OpeningHours = () => {
 
       <SaveBtn>
         <SaveLink href="https://booksy.com/pl-pl/182622_loft-barber-studio_barber-shop_10077_wolbrom">
-          Zapisz się
+          ZAREZERWUJ WIZYTĘ
         </SaveLink>
       </SaveBtn>
       <SaveBtn>
-        <SaveLink href="tel:+48 692 288 466">Zadzwoń</SaveLink>
+        <SaveLink href="tel:+48 692 288 466">ZADZWOŃ DO NAS</SaveLink>
       </SaveBtn>
     </HoursContainer>
   );

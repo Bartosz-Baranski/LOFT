@@ -12,13 +12,21 @@ export const AboutUs = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px;
+  align-items: center;
+  padding: 20px;
   background-color: ${theme.mainBg};
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(${image7});
   background-position: center;
   background-size: cover;
+  @media screen and (min-width: 768px) {
+    padding: 80px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 100px;
+  }
 `;
 
 export const AboutDescDiv = styled.div`
@@ -30,9 +38,6 @@ export const AboutTit = styled.h5`
   font-family: "Poppins", sans-serif;
   line-height: 1.8;
   font-size: 32px;
-  padding-top: 10px;
-  padding-left: 20px;
-
   @media screen and (min-width: 768px) {
     font-size: 28px;
   }
@@ -44,15 +49,15 @@ export const AboutTit = styled.h5`
 export const AboutDesc = styled.p`
   color: ${theme.switchBall2};
   font-family: "Poppins", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.8;
-  padding: 20px;
+
   @media screen and (min-width: 768px) {
-    font-size: 20px;
+    font-size: 28px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 26px;
+    font-size: 32px;
   }
 `;
 
@@ -96,7 +101,6 @@ export const BarbersOverlay = styled.div`
   flex-direction: column;
   align-self: center;
   justify-content: center;
-  border: 1px solid black;
 `;
 
 export const BarberImg = styled.img`
@@ -109,7 +113,7 @@ export const BarberImg = styled.img`
   }
 
   @media screen and (min-width: 1440px) {
-    width: 620px;
+    width: 690px;
   }
 `;
 
@@ -137,10 +141,15 @@ export const BarbersAbaout = styled.p`
   line-height: 1.55;
   text-align: left;
   @media screen and (min-width: 768px) {
-    font-size: 26px;
+    font-size: 28px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 24px;
+    font-size: 32px;
   }
+`;
+
+export const DescBarber = styled.div`
+  display: block;
+  border: 1px solid black;
 `;

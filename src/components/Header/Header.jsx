@@ -15,9 +15,9 @@ const Header = () => {
     <HeaderContainer>
       <MainHeader>
         <Logo />
-        {isOpen ? <Navigation /> : ""}
-        <Burger onClick={toggleMenu} />
-        <SignUp />
+        <Navigation />
+        <SignUp width={200} height={100} />
+        <Burger />
       </MainHeader>
     </HeaderContainer>
   );

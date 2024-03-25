@@ -1,7 +1,6 @@
 import icons from "../../images/icons.svg";
 import {
   Container,
-  Title,
   SocialList,
   SocialListElement,
   SocialListLink,
@@ -11,7 +10,6 @@ import {
 export const SocialLinks = () => {
   return (
     <Container>
-      <Title>ŚLEDŹ NAS</Title>
       <SocialList>
         <SocialListElement>
           <SocialListLink href="https://www.facebook.com/LoftBarberStudio">

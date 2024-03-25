@@ -16,7 +16,7 @@ export const HeaderContainer = styled.header`
 
 export const MainHeader = styled.div`
   display: flex;
-  min-width: 320px;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   padding-top: 10px;
