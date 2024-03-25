@@ -43,15 +43,12 @@ const GlobalContainer = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-
   margin: 20px auto;
 
   @media screen and (min-width: 768px) {
-    padding: 0 32px;
   }
 
   @media screen and (min-width: 1440px) {
-    padding: 0 100px;
   }
 `;
 

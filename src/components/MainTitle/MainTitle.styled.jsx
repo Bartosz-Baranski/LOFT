@@ -16,10 +16,12 @@ export const MainTit = styled.div`
   margin-top: 60px;
   @media screen and (min-width: 768px) {
     margin-top: 105px;
+    width: 100%;
   }
 
   @media screen and (min-width: 1440px) {
     margin-top: 165px;
+    width: 100%;
   }
 `;
 
