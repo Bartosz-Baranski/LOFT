@@ -8,27 +8,25 @@ export const MainTit = styled.div`
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 40px;
+  padding: 80px 40px;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(${image5});
   background-position: center;
   background-size: cover;
-  margin-top: 60px;
+
   @media screen and (min-width: 768px) {
-    margin-top: 105px;
-    width: 100%;
+    padding: 80px 60px;
   }
 
   @media screen and (min-width: 1440px) {
-    margin-top: 165px;
-    width: 100%;
+    padding: 120px 80px;
   }
 `;
 
 export const MainIcon = styled.svg`
   width: 280px;
-  height: 280px;
+  height: 240px;
   @media screen and (min-width: 768px) {
     width: 320px;
     height: 320px;
@@ -43,15 +41,18 @@ export const MainIcon = styled.svg`
 export const Invitation = styled.p`
   color: ${theme.switchColor};
   margin: 0 auto;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   background-color: transparent;
+  padding-top: 20px;
 
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 24px;
+    padding-top: 30px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 32px;
+    font-size: 38px;
+    padding-top: 60px;
   }
 `;

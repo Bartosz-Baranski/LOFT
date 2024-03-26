@@ -1,8 +1,8 @@
 import React from "react";
-import { SignUp } from "../SignUp/SignUp";
 import { Logo } from "../Logo/Logo";
 import { Navigation } from "../Navigation/Navigation";
 import { Burger } from "./BurgerMenu/BurgerMenu.jsx";
+import { InvBtn } from "../InvBtn/InvBtn.jsx";
 import { HeaderContainer, MainHeader } from "./Header.styled.jsx";
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
       <MainHeader>
         <Logo />
         <Navigation />
-        <SignUp width={200} height={100} />
+        <InvBtn />
         <Burger />
       </MainHeader>
     </HeaderContainer>

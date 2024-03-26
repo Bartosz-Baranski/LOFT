@@ -25,7 +25,7 @@ export const Footer = () => {
             tel: +48 692 288 466
           </FooterLink>
         </FooterAddress>
-        <SignUp width={220} height={96} />
+        <SignUp width={260} height={120} />
         <SocialContainer>
           <Invitation>Dołącz do nas</Invitation>
           <SocialLinks />

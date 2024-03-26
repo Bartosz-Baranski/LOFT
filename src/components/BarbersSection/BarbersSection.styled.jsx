@@ -25,7 +25,7 @@ export const AboutUs = styled.div`
   }
 
   @media screen and (min-width: 1440px) {
-    padding: 100px;
+    padding: 160px;
   }
 `;
 
@@ -35,9 +35,8 @@ export const AboutDescDiv = styled.div`
 
 export const AboutTit = styled.h5`
   color: ${theme.switchBall2};
-  font-family: "Poppins", sans-serif;
   line-height: 1.8;
-  font-size: 32px;
+  font-size: 20px;
   @media screen and (min-width: 768px) {
     font-size: 28px;
   }
@@ -48,16 +47,15 @@ export const AboutTit = styled.h5`
 `;
 export const AboutDesc = styled.p`
   color: ${theme.switchBall2};
-  font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.8;
 
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 32px;
+    font-size: 34px;
   }
 `;
 
@@ -68,6 +66,7 @@ export const BarbersList = styled.ul`
   margin: auto;
   align-items: center;
   justify-content: center;
+
   @media screen and (min-width: 768px) {
     flex-direction: row;
     flex-wrap: wrap;
@@ -115,6 +114,11 @@ export const BarberImg = styled.img`
   @media screen and (min-width: 1440px) {
     width: 690px;
   }
+  /* &:hover,
+  &:active,
+  &:focus {
+    scale: 1.2;
+  } */
 `;
 
 export const BarberName = styled.h3`
@@ -122,14 +126,14 @@ export const BarberName = styled.h3`
   padding: 10px;
   margin: auto;
   color: ${theme.switchColor};
-  font-size: 32px;
-  text-align: left;
+  font-size: 28px;
+  text-align: center;
   @media screen and (min-width: 768px) {
-    font-size: 36px;
+    font-size: 28px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 36px;
+    font-size: 38px;
   }
 `;
 
@@ -137,11 +141,11 @@ export const BarbersAbaout = styled.p`
   padding: 10px;
   margin: auto;
   color: ${theme.switchColor};
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.55;
   text-align: left;
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   @media screen and (min-width: 1440px) {

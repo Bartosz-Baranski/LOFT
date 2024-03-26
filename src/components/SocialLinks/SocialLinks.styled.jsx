@@ -5,19 +5,19 @@ export const Container = styled.div`
   width: auto;
 `;
 
-export const Title = styled.h2`
-  color: ${theme.switchColor};
-  font-size: 36px;
-  line-height: 1;
-  text-align: center;
-  @media screen and (min-width: 768px) {
-    font-size: 36px;
-  }
+// export const Title = styled.h2`
+//   color: ${theme.switchColor};
+//   font-size: 36px;
+//   line-height: 1;
+//   text-align: center;
+//   @media screen and (min-width: 768px) {
+//     font-size: 36px;
+//   }
 
-  @media screen and (min-width: 1440px) {
-    font-size: 50px;
-  }
-`;
+//   @media screen and (min-width: 1440px) {
+//     font-size: 50px;
+//   }
+// `;
 
 export const SocialList = styled.ul`
   display: flex;
@@ -46,12 +46,16 @@ export const SocialListLink = styled.a`
 
 export const SocialListIcon = styled.svg`
   fill: ${theme.switchColor};
-  width: 48px;
-  height: 48px;
+  width: 38px;
+  height: 38px;
   @media screen and (min-width: 768px) {
+    width: 44px;
+    height: 44px;
   }
 
   @media screen and (min-width: 1440px) {
+    width: 54px;
+    height: 54px;
   }
 
   &:hover,

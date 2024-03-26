@@ -14,12 +14,8 @@ export const OpeningHours = () => {
     <HoursContainer>
       <HoursTit>Godziny otwarcia</HoursTit>
       <HoursList>
-        <HoursElem>Poniedziałek: 9:00 - 18:00</HoursElem>
-        <HoursElem>Wtorek: 9:00 - 18:00</HoursElem>
-        <HoursElem>Środa: 9:00 - 18:00</HoursElem>
-        <HoursElem>Czwartek: 9:00 - 18:00</HoursElem>
-        <HoursElem>Piątek: 9:00 - 18:00</HoursElem>
-        <HoursElem>Sobota: 8:00 - 13:00</HoursElem>
+        <HoursElem>Poniedziałek - Piątek: 9:00- 18:00</HoursElem>
+        <HoursElem>Sobota: 8:00 - 14:00</HoursElem>
         <HoursElem>Niedziela: Zamknięte</HoursElem>
       </HoursList>
 

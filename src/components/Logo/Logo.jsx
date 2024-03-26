@@ -14,7 +14,7 @@ export const Logo = () => {
     <LogoContainer>
       <a href="#header" onClick={() => scrollToSection("header")}>
         <LogoIcon>
-          <use href={`${icons}#icon-logo_negativ`} />
+          <use href={`${icons}#icon-logo_header`} />
         </LogoIcon>
       </a>
     </LogoContainer>

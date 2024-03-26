@@ -25,6 +25,13 @@ export const SocialLinks = () => {
             </SocialListIcon>
           </SocialListLink>
         </SocialListElement>
+        <SocialListElement>
+          <SocialListLink href="https://www.tiktok.com/@loftbarberstudio">
+            <SocialListIcon>
+              <use href={`${icons}#icon-tiktok`} />
+            </SocialListIcon>
+          </SocialListLink>
+        </SocialListElement>
       </SocialList>
     </Container>
   );

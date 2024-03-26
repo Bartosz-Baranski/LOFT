@@ -1,3 +1,4 @@
+
 import {
   NaviContener,
   NaviList,
@@ -16,6 +17,9 @@ export const Navigation = () => {
   return (
     <NaviContener>
       <NaviList>
+        <NaviElement>
+          <NaviLink href="/aboutus">O nas</NaviLink>
+        </NaviElement>
         <NaviElement>
           <NaviLink onClick={() => scrollToSection("service")}>Usługi</NaviLink>
         </NaviElement>

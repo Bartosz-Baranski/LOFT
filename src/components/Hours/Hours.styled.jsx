@@ -9,24 +9,32 @@ export const HoursContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding: 100px;
+  padding: 80px 40px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(${image11});
   background-position: center;
   background-size: cover;
+  @media screen and (min-width: 768px) {
+    padding: 120px 80px;
+  }
+
+  @media screen and (min-width: 1440px) {
+    padding: 180px 120px;
+  }
 `;
+
 export const HoursTit = styled.h5`
   color: ${theme.switchBall2};
   font-family: "Poppins", sans-serif;
   line-height: 1.8;
-  font-size: 32px;
+  font-size: 20px;
   text-align: center;
   @media screen and (min-width: 768px) {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 38px;
+    font-size: 42px;
   }
 `;
 export const HoursList = styled.ul`
@@ -34,16 +42,17 @@ export const HoursList = styled.ul`
   flex-direction: column;
   gap: 5px;
 `;
+
 export const HoursElem = styled.li`
-  font-size: 24px;
+  font-size: 18px;
   line-height: 1.8;
   color: ${theme.switchBall2};
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 38px;
+    font-size: 36px;
   }
 `;
 
@@ -51,23 +60,24 @@ export const SaveBtn = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px;
-  height: 80px;
+  width: 220px;
+  height: 40px;
   border: 1px solid black;
   border-radius: 20px;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
   background-color: ${theme.mainBg};
   margin-top: 10px;
   @media screen and (min-width: 768px) {
-    font-size: 28px;
+    font-size: 24px;
     width: 320px;
+    height: 60px;
   }
 
   @media screen and (min-width: 1440px) {
-    font-size: 38px;
+    font-size: 32px;
     width: 460px;
-    height: 120px;
+    height: 80px;
   }
   &:hover,
   &:active,
