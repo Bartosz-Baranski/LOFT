@@ -3,7 +3,7 @@ import {
   NaviList,
   NaviElement,
   NaviLink,
-} from "./Navigation.styled.jsx";
+} from "./MobileNavi.styled.jsx";
 
 const scrollToSection = (id) => {
   const yOffset = -200;
@@ -20,7 +20,7 @@ const scrollToSection = (id) => {
   }
 };
 
-export const Navigation = () => {
+export const MobileNavi = () => {
   return (
     <NaviContener>
       <NaviList>

@@ -4,7 +4,8 @@ export const CarouselContainer = styled.div`
   position: relative;
   min-width: 320px;
   height: auto;
-  margin-top: 10px;
+  margin: 10px auto;
+
   @media screen and (min-width: 768px) {
     min-width: 768px;
   }

@@ -5,7 +5,7 @@ export const InvBtn = () => {
   return (
     <InvButton>
       <InvLink href="https://booksy.com/pl-pl/182622_loft-barber-studio_barber-shop_10077_wolbrom">
-        Zarezerwuj Online
+        Umów wizyte
       </InvLink>
     </InvButton>
   );

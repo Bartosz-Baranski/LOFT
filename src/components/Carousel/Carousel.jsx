@@ -11,7 +11,7 @@ import {
   RightSvg,
 } from "./Carousel.styled.jsx";
 
-const Carousel = () => {
+export const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const imagesArray = Object.values(images);
 
@@ -54,4 +54,4 @@ const Carousel = () => {
   );
 };
 
-export default Carousel;
+

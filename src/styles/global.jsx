@@ -1,13 +1,13 @@
 import styled, { createGlobalStyle } from "styled-components";
 import { normalize } from "styled-normalize";
-import { theme } from "./theme.js";
+
 export const GlobalStyles = createGlobalStyle`
   ${normalize}
  
   
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Poppins','Square Sans Serif 7', sans-serif;
-    background-color: ${theme.mainBg};
+    font-family: -apple-system, BlinkMacSystemFont, 'Poppins', sans-serif;
+    background-color: #454545;
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

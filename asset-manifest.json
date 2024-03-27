@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/LOFT/static/js/main.60e87cb5.js",
+    "main.js": "/LOFT/static/js/main.808e9b9f.js",
     "static/media/outside_left.jpg": "/LOFT/static/media/outside_left.6683057c0005c0753dbb.jpg",
     "static/media/chair_rigthside.jpg": "/LOFT/static/media/chair_rigthside.67afa06f5d913c94eadf.jpg",
     "static/media/outside.jpg": "/LOFT/static/media/outside.c80141affdfb73ebf046.jpg",
@@ -17,9 +17,9 @@
     "static/media/chair_left.jpg": "/LOFT/static/media/chair_left.c917741980fae15d1b48.jpg",
     "static/media/icons.svg": "/LOFT/static/media/icons.4e382287f174d9a350db4274192032f2.svg",
     "index.html": "/LOFT/index.html",
-    "main.60e87cb5.js.map": "/LOFT/static/js/main.60e87cb5.js.map"
+    "main.808e9b9f.js.map": "/LOFT/static/js/main.808e9b9f.js.map"
   },
   "entrypoints": [
-    "static/js/main.60e87cb5.js"
+    "static/js/main.808e9b9f.js"
   ]
 }

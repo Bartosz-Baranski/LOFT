@@ -1,26 +1,18 @@
-import Header from "./Header/Header.jsx";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import GlobalContainer from "../styles/global.jsx";
-import { Barbers } from "./BarbersSection/BarbersSection.jsx";
-import Carousel from "./Carousel/Carousel.jsx";
-import { Footer } from "./Footer/Footer.jsx";
-import { OpeningHours } from "./Hours/Hours.jsx";
-import { OurServices } from "./OurServices/OurServices.jsx";
-import { MainTitle } from "./MainTitle/MainTitle.jsx";
+import { MainPage } from "../pages/MainPage/MainPage.jsx";
+import { AboutUsPage } from "../pages/AboutUs/AboutUs.jsx";
 
 const App = () => {
   return (
-    <div className="App">
-      <GlobalContainer>
-        <Header />
-        <MainTitle />
-        <Barbers />
-        <OpeningHours />
-        <OurServices />
-        <Carousel />
-      </GlobalContainer>
-      <Footer />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/LOFT" element={<MainPage />} />
+        <Route path="/LOFT/aboutus" element={<AboutUsPage />} />
+      </Routes>
+    </Router>
   );
 };
+
 export default App;

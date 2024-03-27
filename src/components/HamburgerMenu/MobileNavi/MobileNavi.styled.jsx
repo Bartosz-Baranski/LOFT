@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import { theme } from "../../styles";
+import { theme } from "../../../styles";
 
 export const NaviContener = styled.div`
-  display: none;
   margin: 0 auto;
   @media screen and (min-width: 768px) {
   }
