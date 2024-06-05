@@ -24,6 +24,7 @@ export const FooterContainer = styled.footer`
     width: 1440px;
     height: 300px;
     flex-direction: row;
+    justify-content: space-between;
   }
 `;
 

@@ -45,7 +45,7 @@ const services = [
   },
   {
     title: "Depilacja woskiem",
-    description: "do wyboru: nos, uszy, kark",
+    description: "Do wyboru: nos, uszy, kark",
     link: "https://booksy.com/pl-pl/182622_loft-barber-studio_barber-shop_10077_wolbrom",
   },
 ];

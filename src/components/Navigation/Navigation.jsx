@@ -28,7 +28,7 @@ export const Navigation = () => {
           <NaviLink href="/LOFT">Strona Główna</NaviLink>
         </NaviElement>
         <NaviElement>
-          <NaviLink href="/LOFT/aboutus">O nas</NaviLink>
+          <NaviLink onClick={() => scrollToSection("aboutus")}>O nas</NaviLink>
         </NaviElement>
         <NaviElement>
           <NaviLink onClick={() => scrollToSection("service")}>Usługi</NaviLink>

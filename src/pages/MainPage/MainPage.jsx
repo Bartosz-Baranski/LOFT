@@ -3,6 +3,7 @@ import React from "react";
 import { Wrapper } from "../../components/Wrapper/Wrapper.jsx";
 import { MainTitle } from "../../components/MainTitle/MainTitle.jsx";
 import { About } from "../../components/About/About.jsx";
+import { Barbers } from "../../components/Barbers/Barbers.jsx";
 import { OpeningHours } from "../../components/Hours/Hours.jsx";
 import { OurServices } from "../../components/OurServices/OurServices.jsx";
 import { Carousel } from "../../components/Carousel/Carousel";
@@ -15,6 +16,7 @@ export const MainPage = () => {
       <MainPageContainer>
         <MainTitle />
         <About />
+        <Barbers />
         <OpeningHours />
         <OurServices />
         <Carousel />

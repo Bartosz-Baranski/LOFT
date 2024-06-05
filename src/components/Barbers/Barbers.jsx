@@ -18,7 +18,7 @@ export const Barbers = () => {
   const descriptions = [
     {
       name: "Radek",
-      text: "Opis dla Radeka...",
+      text: "Opis dla Radka...",
     },
     {
       name: "Marzena",
@@ -26,7 +26,7 @@ export const Barbers = () => {
     },
   ];
   return (
-    <BarbersContainer>
+    <BarbersContainer id="aboutus">
       <BarbersList>
         {[image1, image2].map((image, index) => (
           <BarbersElement

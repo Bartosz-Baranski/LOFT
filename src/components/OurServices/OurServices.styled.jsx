@@ -25,6 +25,7 @@ export const Container = styled.div`
 `;
 export const ServiceContainer = styled.div`
   min-width: 320px;
+
   @media screen and (min-width: 768px) {
     min-width: 768px;
   }
